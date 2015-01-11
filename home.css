@@ -63,20 +63,44 @@ header p {
   display: inline-block;
   text-align: center;
   margin-top: 1em;
+  border-radius: 20px;
   /*margin-left: 3em;*/
-  background-color: white;
+  background-color: grey;
+  position: relative;
 }
+
+
 
 #three {
   background-color: black;
   padding-bottom: 1em;
   text-align: center;
+  font-family: 'Gruppo', 'Arial';
+  color: white;
+  /*font-size: 2em;*/
 }
 
+/*Each Box*/
 
+#left {
+  text-align: center;
+  font-size: 1em;
+}
+
+#left-middle {
+
+}
+
+#right-middle {
+
+}
+
+#right {
+
+}
 /*---------------------------*/
 
 footer {
   text-align: center;
-  font-family: 'Gruppo', 'Arial';
+  font-family: Arial;
 }
