@@ -16,7 +16,7 @@ body {
   padding-right: 1.5em;
 }
 
-* {
+nav {
   font-family: 'Gruppo', 'Arial';
 }
 
@@ -32,6 +32,7 @@ header {
   text-align: center;
   position: relative;
   padding-top: 2%;
+  font-family: 'Lora', serif;
 }
 
 header h1 {
@@ -52,3 +53,30 @@ header p {
 }
 
 /*---------------------------*/
+
+/* Section 3 Div boxs*/
+
+#three div {
+  height: 15em;
+  width: 15em;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: center;
+  margin-top: 1em;
+  /*margin-left: 3em;*/
+  background-color: white;
+}
+
+#three {
+  background-color: black;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+
+/*---------------------------*/
+
+footer {
+  text-align: center;
+  font-family: 'Gruppo', 'Arial';
+}
