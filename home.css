@@ -19,6 +19,7 @@ body {
 nav {
   font-family: 'Gruppo', 'Arial';
   text-align: right;
+  display: inline-block;
 }
 
 #top a li:hover {
@@ -29,12 +30,13 @@ header {
   /*text-align: center;*/
   font-family: 'Gruppo', 'Arial';
   position: relative;
+  display: inline-block;
   /*padding-top: 2%;*/
   /*font-family: 'Lora', serif;*/
+  /*font-size: 2em;*/
 }
 
 header h1 {
-  font-size: 2em;
   /*float:left;*/
   /*text-align: left;*/
   /*display: inline-block;*/
