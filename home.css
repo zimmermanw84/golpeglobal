@@ -7,7 +7,7 @@ body {
 #top {
   list-style: none;
   font-size: 1.5em;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #top a li {
@@ -18,32 +18,36 @@ body {
 
 nav {
   font-family: 'Gruppo', 'Arial';
+  text-align: right;
 }
 
 #top a li:hover {
   text-shadow: 1px 1px black;
 }
 
+header {
+  /*text-align: center;*/
+  font-family: 'Gruppo', 'Arial';
+  position: relative;
+  /*padding-top: 2%;*/
+  /*font-family: 'Lora', serif;*/
+}
+
+header h1 {
+  font-size: 2em;
+  /*float:left;*/
+  /*text-align: left;*/
+  /*display: inline-block;*/
+}
+
+/*header p {
+  margin-top: -2em;
+  font-size: 1.2em;
+}*/
 /*---------------------------*/
 
 /*Section One Backround / Header*/
 
-header {
-  text-align: center;
-  position: relative;
-  padding-top: 2%;
-  font-family: 'Lora', serif;
-}
-
-header h1 {
-  font-size: 5em;
-
-}
-
-header p {
-  margin-top: -2em;
-  font-size: 1.2em;
-}
 
 
 #two {
