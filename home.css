@@ -7,6 +7,7 @@ body {
 #top {
   list-style: none;
   font-size: 1.5em;
+
   /*text-align: center;*/
 }
 
@@ -14,11 +15,12 @@ body {
   color:black;
   display: inline-block;
   padding-right: 1.5em;
+  /*float: right;*/
 }
 
 nav {
   font-family: 'Gruppo', 'Arial';
-  text-align: right;
+  /*text-align: right;*/
   display: inline-block;
 }
 
@@ -27,11 +29,14 @@ nav {
 }
 
 header {
-  /*text-align: center;*/
   font-family: 'Gruppo', 'Arial';
   position: relative;
   display: inline-block;
-  /*padding-top: 2%;*/
+  /*text-align: right;*/
+  float: right;
+  margin-top: -2em;
+  margin-right: 2em;
+  /*padding-top: em;*/
   /*font-family: 'Lora', serif;*/
   /*font-size: 2em;*/
 }
@@ -40,6 +45,7 @@ header h1 {
   /*float:left;*/
   /*text-align: left;*/
   /*display: inline-block;*/
+  font-size: 3em;
 }
 
 /*header p {
@@ -53,8 +59,9 @@ header h1 {
 
 
 #two {
-  background-color: #FFBC7C;
-  height: 20em;
+  background-color: #7F100B;
+  height: 30em;
+  min-height: 100%;
   width: 100%;
 }
 
@@ -62,49 +69,67 @@ header h1 {
 
 /* Section 3 Div boxs*/
 
+section div h2 {
+  text-align: center;
+}
+/*
 #three div {
-  height: 15em;
   width: 15em;
   border: 1px solid black;
-  display: inline-block;
-  text-align: center;
+  display: block;
   margin-top: 1em;
   border-radius: 20px;
-  /*margin-left: 3em;*/
-  background-color: grey;
-  position: relative;
+  /*position: relative;*/
+  /*margin-right: 1.5em;*/
+/*}*/
+
+section {
+  /*margin-top: -1.5em;*/
 }
 
-
-
 #three {
-  background-color: black;
-  padding-bottom: 1em;
-  text-align: center;
+  background-color: white;
   font-family: 'Gruppo', 'Arial';
-  color: white;
-  /*font-size: 2em;*/
+  color: black;
+  height: 30em;
+  font-size: 1.5em;
+  padding-top: 1.5em;
 }
 
 /*Each Box*/
 
 #left {
-  text-align: center;
+  text-align: left;
   font-size: 1em;
 }
 
-#left-middle {
-
-}
-
-#right-middle {
-
-}
-
-#right {
-
-}
 /*---------------------------*/
+
+
+
+#four {
+  height: 30em;
+  min-height: 100%;
+  width: 100%;
+  font-family: 'Gruppo', 'Arial';
+  background-color: black;
+  color: white;
+  /*margin-top: -1.5em;*/
+  font-size: 1.5em;
+  padding-top: 1.5em;
+}
+
+#five {
+  height: 30em;
+  min-height: 100%;
+  width: 100%;
+  font-family: 'Gruppo', 'Arial';
+  font-size: 1.5em;
+  padding-top: 1.5em;
+  background-color: #A6B1FF;
+}
+
+
 
 footer {
   text-align: center;
